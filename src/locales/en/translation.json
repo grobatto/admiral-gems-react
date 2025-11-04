@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Uruguayan Amethyst & Agate",
+    "subtitle": "Direct from Artigas mines to the world",
+    "cta": {
+      "catalog": "View Catalog",
+      "contact": "Contact Us"
+    },
+    "badges": {
+      "quality": "Certified Quality",
+      "direct": "Direct Import",
+      "wholesale": "Wholesale Prices",
+      "shipping": "International Shipping"
+    }
+  },
+  "products": {
+    "exceptional": {
+      "title": "Exceptional Specimens",
+      "subtitle": "Unique pieces of superior quality",
+      "items": {
+        "uruguayQuality": {
+          "title": "Uruguay Quality",
+          "description": "Highest gem quality, ideal for fine jewelry"
+        },
+        "cutBase": {
+          "title": "Cut Base",
+          "description": "Professionally polished pieces with perfect flat bases"
+        },
+        "heart": {
+          "title": "Hearts",
+          "description": "Hand-carved heart shapes, perfect for gifts"
+        },
+        "premium": {
+          "title": "Premium Cut Base",
+          "description": "Premium cut bases with exceptional color and clarity"
+        }
+      }
+    },
+    "collection": {
+      "title": "Deep Purple Collection",
+      "subtitle": "Explore our full range of amethyst and agate products",
+      "viewAll": "View All",
+      "items": {
+        "pieces": {
+          "title": "Pieces",
+          "description": "Natural raw amethyst specimens"
+        },
+        "cutBase": {
+          "title": "Cut Base",
+          "description": "Amethysts with polished flat base"
+        },
+        "hearts": {
+          "title": "Hearts",
+          "description": "Carved heart shapes"
+        },
+        "clusters": {
+          "title": "Clusters",
+          "description": "Natural crystal formations"
+        },
+        "geodes": {
+          "title": "Geodes",
+          "description": "Whole geodes and halves"
+        },
+        "cathedral": {
+          "title": "Cathedral",
+          "description": "Large cathedral-style pieces"
+        },
+        "agate": {
+          "title": "Agate",
+          "description": "Polished Uruguayan agate"
+        },
+        "rainbow": {
+          "title": "Rainbow",
+          "description": "Amethyst with vibrant colors"
+        },
+        "citrine": {
+          "title": "Citrine",
+          "description": "Natural heated citrine"
+        },
+        "special": {
+          "title": "Special",
+          "description": "Unique pieces and calcite"
+        }
+      }
+    },
+    "quality": {
+      "extra": "EXTRA",
+      "q1": "Q1",
+      "q2": "Q2",
+      "q3": "Q3",
+      "q4": "Q4",
+      "q5": "Q5"
+    },
+    "buttons": {
+      "viewDetails": "View Details",
+      "requestQuote": "Request Quote"
+    }
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "From mine to finished product",
+    "categories": {
+      "all": "All",
+      "mining": "Mining",
+      "raw": "Raw",
+      "products": "Products",
+      "displays": "Displays"
+    }
+  },
+  "whyUruguay": {
+    "title": "Why Uruguayan Amethysts?",
+    "subtitle": "Uruguay's superior quality comes from unique geological conditions",
+    "features": {
+      "color": {
+        "title": "Deep Color",
+        "description": "The world's most intense and uniform purple color"
+      },
+      "clarity": {
+        "title": "Exceptional Clarity",
+        "description": "Clean crystals with minimal inclusions"
+      },
+      "size": {
+        "title": "Large Formations",
+        "description": "Large specimens and geodes available"
+      },
+      "ethical": {
+        "title": "Ethical Source",
+        "description": "Responsible mining and fair trade"
+      }
+    },
+    "stats": {
+      "experience": "25+ Years Experience",
+      "quality": "Certified Quality",
+      "shipping": "150+ Countries Served"
+    }
+  },
+  "howToOrder": {
+    "title": "How to Order",
+    "subtitle": "Simple 4-step process",
+    "steps": {
+      "browse": {
+        "title": "Browse Catalog",
+        "description": "Review our available products and qualities"
+      },
+      "request": {
+        "title": "Request Information",
+        "description": "Contact us with your specific requirements"
+      },
+      "quote": {
+        "title": "Receive Quote",
+        "description": "We send photos, specifications and pricing"
+      },
+      "order": {
+        "title": "Confirm Order",
+        "description": "We arrange international shipping and payment"
+      }
+    }
+  },
+  "story": {
+    "title": "Our Story",
+    "subtitle": "Direct connection with Artigas mines",
+    "content": "We are a family business with over 25 years of experience in extracting and marketing Uruguayan amethysts and agates. We work directly with the mines in Artigas, Uruguay, guaranteeing the best quality and wholesale prices for our international customers.",
+    "values": {
+      "quality": "Commitment to quality and authenticity",
+      "ethics": "Ethical and sustainable mining",
+      "service": "Personalized service for wholesalers"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with your wholesale order",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "country": "Country",
+      "product": "Product of Interest",
+      "quantity": "Estimated Quantity (kg)",
+      "message": "Message",
+      "submit": "Send Inquiry",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll contact you soon.",
+      "error": "Error sending message. Please try again.",
+      "placeholders": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "company": "Your company name",
+        "country": "Select your country",
+        "product": "Select product",
+        "quantity": "Ex: 100",
+        "message": "Tell us about your business and requirements..."
+      },
+      "products": {
+        "pieces": "Pieces",
+        "cutBase": "Cut Base",
+        "hearts": "Hearts",
+        "clusters": "Clusters",
+        "geodes": "Geodes",
+        "agate": "Agate",
+        "mixed": "Mixed",
+        "other": "Other"
+      }
+    },
+    "info": {
+      "email": "admiralgemsuruguay@gmail.com",
+      "whatsapp": "+598 99 123 456",
+      "instagram": "@admiralgemsuy"
+    },
+    "whatsapp": {
+      "button": "WhatsApp",
+      "message": "Hello, I'm interested in Uruguayan amethyst products for wholesale import."
+    }
+  },
+  "footer": {
+    "tagline": "Premium Uruguayan Amethyst & Agate",
+    "rights": "All rights reserved",
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "shipping": "Shipping"
+    }
+  }
+}

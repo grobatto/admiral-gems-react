@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "gallery": "Galeria",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Ametista e Ágata Uruguaia Premium",
+    "subtitle": "Direto das minas de Artigas para o mundo",
+    "cta": {
+      "catalog": "Ver Catálogo",
+      "contact": "Entre em Contato"
+    },
+    "badges": {
+      "quality": "Qualidade Certificada",
+      "direct": "Importação Direta",
+      "wholesale": "Preços de Atacado",
+      "shipping": "Envio Internacional"
+    }
+  },
+  "products": {
+    "exceptional": {
+      "title": "Espécimes Excepcionais",
+      "subtitle": "Peças únicas de qualidade superior",
+      "items": {
+        "uruguayQuality": {
+          "title": "Qualidade Uruguai",
+          "description": "A mais alta qualidade de gema, ideal para joalheria fina"
+        },
+        "cutBase": {
+          "title": "Base Cortada",
+          "description": "Peças polidas profissionalmente com bases planas perfeitas"
+        },
+        "heart": {
+          "title": "Corações",
+          "description": "Formas de coração esculpidas à mão, perfeitas para presentes"
+        },
+        "premium": {
+          "title": "Base Cortada Premium",
+          "description": "Bases cortadas premium com cor e clareza excepcionais"
+        }
+      }
+    },
+    "collection": {
+      "title": "Coleção Roxo Profundo",
+      "subtitle": "Explore nossa gama completa de produtos de ametista e ágata",
+      "viewAll": "Ver Tudo",
+      "items": {
+        "pieces": {
+          "title": "Peças",
+          "description": "Espécimes naturais de ametista bruta"
+        },
+        "cutBase": {
+          "title": "Base Cortada",
+          "description": "Ametistas com base plana polida"
+        },
+        "hearts": {
+          "title": "Corações",
+          "description": "Formas de coração esculpidas"
+        },
+        "clusters": {
+          "title": "Cachos",
+          "description": "Formações de cristais naturais"
+        },
+        "geodes": {
+          "title": "Geodas",
+          "description": "Geodas inteiras e metades"
+        },
+        "cathedral": {
+          "title": "Catedral",
+          "description": "Peças grandes estilo catedral"
+        },
+        "agate": {
+          "title": "Ágata",
+          "description": "Ágata uruguaia polida"
+        },
+        "rainbow": {
+          "title": "Arco-íris",
+          "description": "Ametista com cores vibrantes"
+        },
+        "citrine": {
+          "title": "Citrino",
+          "description": "Citrino natural aquecido"
+        },
+        "special": {
+          "title": "Especiais",
+          "description": "Peças únicas e calcita"
+        }
+      }
+    },
+    "quality": {
+      "extra": "EXTRA",
+      "q1": "Q1",
+      "q2": "Q2",
+      "q3": "Q3",
+      "q4": "Q4",
+      "q5": "Q5"
+    },
+    "buttons": {
+      "viewDetails": "Ver Detalhes",
+      "requestQuote": "Solicitar Cotação"
+    }
+  },
+  "gallery": {
+    "title": "Nossa Galeria",
+    "subtitle": "Da mina ao produto final",
+    "categories": {
+      "all": "Tudo",
+      "mining": "Mineração",
+      "raw": "Bruto",
+      "products": "Produtos",
+      "displays": "Exposições"
+    }
+  },
+  "whyUruguay": {
+    "title": "Por Que Ametistas Uruguaias?",
+    "subtitle": "A qualidade superior do Uruguai vem de condições geológicas únicas",
+    "features": {
+      "color": {
+        "title": "Cor Profunda",
+        "description": "A cor roxa mais intensa e uniforme do mundo"
+      },
+      "clarity": {
+        "title": "Clareza Excepcional",
+        "description": "Cristais limpos com inclusões mínimas"
+      },
+      "size": {
+        "title": "Grandes Formações",
+        "description": "Espécimes grandes e geodas disponíveis"
+      },
+      "ethical": {
+        "title": "Origem Ética",
+        "description": "Mineração responsável e comércio justo"
+      }
+    },
+    "stats": {
+      "experience": "25+ Anos de Experiência",
+      "quality": "Qualidade Certificada",
+      "shipping": "150+ Países Atendidos"
+    }
+  },
+  "howToOrder": {
+    "title": "Como Encomendar",
+    "subtitle": "Processo simples de 4 passos",
+    "steps": {
+      "browse": {
+        "title": "Navegar no Catálogo",
+        "description": "Reveja nossos produtos e qualidades disponíveis"
+      },
+      "request": {
+        "title": "Solicitar Informações",
+        "description": "Entre em contato conosco com seus requisitos específicos"
+      },
+      "quote": {
+        "title": "Receber Cotação",
+        "description": "Enviamos fotos, especificações e preços"
+      },
+      "order": {
+        "title": "Confirmar Pedido",
+        "description": "Organizamos envio e pagamento internacional"
+      }
+    }
+  },
+  "story": {
+    "title": "Nossa História",
+    "subtitle": "Conexão direta com as minas de Artigas",
+    "content": "Somos uma empresa familiar com mais de 25 anos de experiência na extração e comercialização de ametistas e ágatas uruguaias. Trabalhamos diretamente com as minas em Artigas, Uruguai, garantindo a melhor qualidade e preços de atacado para nossos clientes internacionais.",
+    "values": {
+      "quality": "Compromisso com qualidade e autenticidade",
+      "ethics": "Mineração ética e sustentável",
+      "service": "Serviço personalizado para atacadistas"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Estamos aqui para ajudar com seu pedido de atacado",
+    "form": {
+      "name": "Nome Completo",
+      "email": "Email",
+      "company": "Empresa",
+      "country": "País",
+      "product": "Produto de Interesse",
+      "quantity": "Quantidade Estimada (kg)",
+      "message": "Mensagem",
+      "submit": "Enviar Consulta",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+      "error": "Erro ao enviar mensagem. Por favor, tente novamente.",
+      "placeholders": {
+        "name": "Seu nome",
+        "email": "seu@email.com",
+        "company": "Nome da sua empresa",
+        "country": "Selecione seu país",
+        "product": "Selecione o produto",
+        "quantity": "Ex: 100",
+        "message": "Conte-nos sobre seu negócio e requisitos..."
+      },
+      "products": {
+        "pieces": "Peças",
+        "cutBase": "Base Cortada",
+        "hearts": "Corações",
+        "clusters": "Cachos",
+        "geodes": "Geodas",
+        "agate": "Ágata",
+        "mixed": "Misto",
+        "other": "Outro"
+      }
+    },
+    "info": {
+      "email": "admiralgemsuruguay@gmail.com",
+      "whatsapp": "+598 99 123 456",
+      "instagram": "@admiralgemsuy"
+    },
+    "whatsapp": {
+      "button": "WhatsApp",
+      "message": "Olá, estou interessado em produtos de ametista uruguaia para importação no atacado."
+    }
+  },
+  "footer": {
+    "tagline": "Ametista e Ágata Uruguaia Premium",
+    "rights": "Todos os direitos reservados",
+    "links": {
+      "privacy": "Privacidade",
+      "terms": "Termos",
+      "shipping": "Envio"
+    }
+  }
+}
