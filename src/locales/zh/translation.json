@@ -7,48 +7,25 @@
     "contact": "联系"
   },
   "hero": {
-    "title": "优质乌拉圭紫水晶和玛瑙",
-    "subtitle": "直接从阿蒂加斯矿区到世界",
+    "title": "发现乌拉圭紫水晶的魔力",
+    "subtitle": "直接从矿源，每个绚丽的晶洞和生动的晶体都分享着一个数百万年的故事",
     "cta": {
       "catalog": "查看目录",
-      "contact": "联系我们"
+      "contact": "请求报价"
     },
     "badges": {
-      "quality": "认证质量",
-      "direct": "直接进口",
-      "wholesale": "批发价格",
-      "shipping": "国际运输"
+      "quality": "24小时响应",
+      "direct": "安全包装",
+      "wholesale": "安全运输",
+      "shipping": "全球运输"
     }
   },
   "products": {
     "exceptional": {
-      "title": "特级标本",
-      "subtitle": "卓越品质的独特作品",
+      "title": "我们的产品",
+      "subtitle": "乌拉圭紫水晶和玛瑙的完整选择",
       "items": {
         "uruguayQuality": {
-          "title": "乌拉圭品质",
-          "description": "最高宝石品质，适合精致珠宝"
-        },
-        "cutBase": {
-          "title": "切割底座",
-          "description": "专业抛光，底座完美平整"
-        },
-        "heart": {
-          "title": "心形",
-          "description": "手工雕刻心形，完美礼物"
-        },
-        "premium": {
-          "title": "高级切割底座",
-          "description": "高级切割底座，色彩和透明度卓越"
-        }
-      }
-    },
-    "collection": {
-      "title": "深紫系列",
-      "subtitle": "探索我们完整的紫水晶和玛瑙产品系列",
-      "viewAll": "查看全部",
-      "items": {
-        "pieces": {
           "title": "原石",
           "description": "天然原始紫水晶标本"
         },
@@ -56,25 +33,48 @@
           "title": "切割底座",
           "description": "带抛光平底的紫水晶"
         },
+        "heart": {
+          "title": "心形",
+          "description": "手工雕刻的心形"
+        },
+        "premium": {
+          "title": "玛瑙磨光切割底座",
+          "description": "专业打磨的乌拉圭玛瑙"
+        }
+      }
+    },
+    "collection": {
+      "title": "完整收藏",
+      "subtitle": "11种产品类别可用",
+      "viewAll": "查看全部",
+      "items": {
+        "pieces": {
+          "title": "原石",
+          "description": "天然标本"
+        },
+        "cutBase": {
+          "title": "切割底座",
+          "description": "带抛光平底"
+        },
         "hearts": {
           "title": "心形",
-          "description": "雕刻心形"
+          "description": "心形形式"
         },
         "clusters": {
           "title": "晶簇",
-          "description": "天然晶体形成"
+          "description": "晶体形成"
         },
         "geodes": {
           "title": "晶洞",
-          "description": "整个晶洞和半个晶洞"
+          "description": "整个天然晶洞"
         },
         "cathedral": {
-          "title": "大教堂",
-          "description": "大型教堂风格作品"
+          "title": "珠宝盒晶洞",
+          "description": "特殊礼盒晶洞"
         },
         "agate": {
           "title": "玛瑙",
-          "description": "抛光乌拉圭玛瑙"
+          "description": "打磨乌拉圭玛瑙"
         },
         "rainbow": {
           "title": "彩虹",
@@ -85,8 +85,12 @@
           "description": "天然加热黄水晶"
         },
         "special": {
-          "title": "特殊",
-          "description": "独特作品和方解石"
+          "title": "宝石",
+          "description": "特选宝石"
+        },
+        "other": {
+          "title": "特殊作品",
+          "description": "特殊作品和方解石"
         }
       }
     },
@@ -100,12 +104,12 @@
     },
     "buttons": {
       "viewDetails": "查看详情",
-      "requestQuote": "询价"
+      "requestQuote": "请求报价"
     }
   },
   "gallery": {
-    "title": "我们的画廊",
-    "subtitle": "从矿区到成品",
+    "title": "画廊",
+    "subtitle": "发现我们的紫水晶和玛瑙",
     "categories": {
       "all": "全部",
       "mining": "采矿",
@@ -116,29 +120,29 @@
   },
   "whyUruguay": {
     "title": "为什么选择乌拉圭紫水晶？",
-    "subtitle": "乌拉圭的卓越品质源于独特的地质条件",
+    "subtitle": "独特的地质来源：阿蒂加斯地区",
     "features": {
       "color": {
-        "title": "深邃色彩",
-        "description": "世界上最浓郁均匀的紫色"
+        "title": "全球第一品质",
+        "description": "≥95% 色彩饱和度深度指数 - 全球认可"
       },
       "clarity": {
-        "title": "卓越透明度",
-        "description": "干净的晶体，包裹体极少"
+        "title": "火山地层",
+        "description": "130 百万年的地质历史"
       },
       "size": {
-        "title": "大型形成",
-        "description": "可提供大型标本和晶洞"
+        "title": "大型地层",
+        "description": "有大型标本和晶洞可用"
       },
       "ethical": {
-        "title": "道德来源",
-        "description": "负责任的采矿和公平贸易"
+        "title": "三重底线责任",
+        "description": "人员、星球和繁荣"
       }
     },
     "stats": {
-      "experience": "25年以上经验",
+      "experience": "数十年的经验",
       "quality": "认证质量",
-      "shipping": "服务150多个国家"
+      "shipping": "运输至150多个国家"
     }
   },
   "howToOrder": {
@@ -146,56 +150,56 @@
     "subtitle": "简单的4步流程",
     "steps": {
       "browse": {
-        "title": "浏览目录",
-        "description": "查看我们的可用产品和质量等级"
+        "title": "1. 提交查询",
+        "description": "完成您的查询和要求"
       },
       "request": {
-        "title": "咨询信息",
-        "description": "根据您的具体需求联系我们"
+        "title": "2. 收到报价",
+        "description": "我们发送详细信息和价格"
       },
       "quote": {
-        "title": "接收报价",
-        "description": "我们发送照片、规格和价格"
+        "title": "3. 确认订单",
+        "description": "同意条款和数量"
       },
       "order": {
-        "title": "确认订单",
-        "description": "我们安排国际运输和付款"
+        "title": "4. 安全物流",
+        "description": "我们带着包装和追踪发送"
       }
     }
   },
   "story": {
-    "title": "我们的故事",
-    "subtitle": "与阿蒂加斯矿区的直接联系",
-    "content": "我们是一家拥有25年以上经验的家族企业，专门开采和销售乌拉圭紫水晶和玛瑙。我们直接与乌拉圭阿蒂加斯的矿区合作，为我们的国际客户保证最佳质量和批发价格。",
+    "title": "关于Admiral Gems乌拉圭公司",
+    "subtitle": "来自阿蒂加斯的负责任采矿",
+    "content": "我们是乌拉圭阿蒂加斯地区紫水晶和玛瑙的专业供应商。我们提供符合国际标准的最高质量产品。我们的承诺是环境责任和公平对待。",
     "values": {
-      "quality": "致力于质量和真实性",
-      "ethics": "道德和可持续采矿",
-      "service": "为批发商提供个性化服务"
+      "quality": "全球认可的第一品质",
+      "ethics": "三重底线标准 - 人员、星球、繁荣",
+      "service": "24小时内响应"
     }
   },
   "contact": {
     "title": "联系我们",
-    "subtitle": "我们随时帮助您完成批发订单",
+    "subtitle": "我们将在24小时内回复",
     "form": {
-      "name": "全名",
+      "name": "姓名",
       "email": "电子邮件",
       "company": "公司",
       "country": "国家",
       "product": "感兴趣的产品",
-      "quantity": "估计数量（公斤）",
-      "message": "留言",
-      "submit": "发送咨询",
+      "quantity": "数量（公斤）",
+      "message": "消息",
+      "submit": "提交查询",
       "sending": "发送中...",
-      "success": "消息发送成功！我们很快会联系您。",
-      "error": "发送消息时出错。请重试。",
+      "success": "查询已发送！我们将在24小时内与您联系。",
+      "error": "错误。请重试。",
       "placeholders": {
         "name": "您的名字",
         "email": "your@email.com",
-        "company": "您的公司名称",
-        "country": "选择您的国家",
-        "product": "选择产品",
+        "company": "您的公司",
+        "country": "您的国家",
+        "product": "感兴趣的产品",
         "quantity": "例如：100",
-        "message": "告诉我们您的业务和需求..."
+        "message": "告诉我们关于您的业务..."
       },
       "products": {
         "pieces": "原石",
@@ -210,12 +214,12 @@
     },
     "info": {
       "email": "admiralgemsuruguay@gmail.com",
-      "whatsapp": "+598 99 123 456",
-      "instagram": "@admiralgemsuy"
+      "whatsapp": "+598 950 528 40",
+      "instagram": "@admiral_gems"
     },
     "whatsapp": {
       "button": "WhatsApp",
-      "message": "您好，我对乌拉圭紫水晶产品的批发进口感兴趣。"
+      "message": "您好，我对乌拉圭紫水晶和玛瑙的进口感兴趣。"
     }
   },
   "footer": {
