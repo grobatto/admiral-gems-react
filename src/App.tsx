@@ -43,7 +43,7 @@ function App() {
 
   const getWhatsAppLink = () => {
     const message = encodeURIComponent(t('contact.whatsapp.message'));
-    return `https://wa.me/59899123456?text=${message}`;
+    return `https://wa.me/59895052840?text=${message}`;
   };
 
   return (
