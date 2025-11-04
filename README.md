@@ -1,73 +1,182 @@
-# React + TypeScript + Vite
+# Admiral Gems Uruguay - React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, premium B2B website for Admiral Gems Uruguay, showcasing Uruguayan amethyst and agate products with multi-language support.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multi-Language Support**: Spanish, English, Portuguese, Chinese (Simplified)
+- **Premium Design**: Modern glassmorphism, gradients, smooth animations
+- **Responsive**: Mobile-first design, works on all devices
+- **B2B Focus**: Advanced contact form with company, country, and quantity fields
+- **WhatsApp Integration**: Multi-language WhatsApp float button
+- **Performance**: Optimized with Vite, code splitting, lazy loading
+- **SEO Ready**: Semantic HTML, proper meta tags, structured data
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** + **TypeScript**
+- **Vite** - Ultra-fast build tool
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Smooth animations
+- **react-i18next** - Internationalization
+- **React Hook Form** - Form handling
+- **Formspree** - Contact form backend
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx          # Sticky header with nav
+│   │   ├── Footer.tsx          # Footer with links
+│   │   └── LanguageSwitcher.tsx # Language selector
+├── locales/
+│   ├── es/translation.json     # Spanish
+│   ├── en/translation.json     # English
+│   ├── pt/translation.json     # Portuguese
+│   └── zh/translation.json     # Chinese
+├── assets/images/
+│   ├── brand/                  # Logo, favicon
+│   ├── products/               # Product images
+│   └── gallery/                # Gallery images
+├── App.tsx                     # Main application
+├── i18n.ts                     # i18n configuration
+└── main.tsx                    # Entry point
+```
+
+## Sections
+
+1. **Hero** - Full-screen hero with animated logo, CTAs
+2. **Products** - 4 featured products with hover effects
+3. **Gallery** - Image gallery with categories
+4. **About** - Company story and values
+5. **Contact** - B2B contact form with WhatsApp button
+
+## Multi-Language
+
+Switch languages with the flag selector in the header. Language preference is saved to localStorage.
+
+Supported languages:
+- 🇪🇸 Spanish (Español) - Default
+- 🇺🇸 English
+- 🇧🇷 Portuguese (Português)
+- 🇨🇳 Chinese (中文)
+
+## Deployment
+
+### Netlify
+
+1. Build the project: `npm run build`
+2. Deploy the `dist` folder to Netlify
+3. Set environment variables if needed
+4. Configure custom domain: admiralgems.com
+
+### Configuration
+
+Create `netlify.toml`:
+
+```toml
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+## Customization
+
+### Update Contact Information
+
+Edit `src/locales/*/translation.json`:
+
+```json
+{
+  "contact": {
+    "info": {
+      "email": "your@email.com",
+      "whatsapp": "+598 XX XXX XXX",
+      "instagram": "@yourusername"
+    }
+  }
+}
+```
+
+### Update WhatsApp Number
+
+In `src/App.tsx`, update the WhatsApp link:
+
+```typescript
+const getWhatsAppLink = () => {
+  const message = encodeURIComponent(t('contact.whatsapp.message'));
+  return `https://wa.me/YOUR_NUMBER?text=${message}`;
+};
+```
+
+### Add Product Images
+
+Replace placeholder gradients in `App.tsx` with actual images:
+
+```tsx
+<img src={productImage} alt="Product" className="w-full h-64 object-cover" />
+```
+
+## Performance Optimization
+
+- Images: Optimize with WebP/AVIF formats
+- Code Splitting: Lazy load heavy components
+- Bundle Size: Tree-shaking enabled
+- Fonts: Google Fonts with display=swap
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+© 2025 Admiral Gems Uruguay. All rights reserved.
+
+## Contact
+
+- Email: admiralgemsuruguay@gmail.com
+- WhatsApp: +598 99 123 456
+- Instagram: @admiralgemsuy
+- GitHub: [grobatto/admiral-gems-react](https://github.com/grobatto/admiral-gems-react)
+
+---
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
